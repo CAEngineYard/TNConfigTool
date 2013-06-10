@@ -1,0 +1,46 @@
+* {
+	font-family: Arial;
+	background: #ffffff;
+	padding: 0;
+	margin: 0;
+}
+
+h1
+{
+	color: rgb(37, 85, 148);
+	font-size: 1.75em;
+}
+
+div.center {   
+	margin-left: auto;   
+	margin-right: auto;   
+	width: 50%; 
+}
+
+th
+{
+	background-color:#a5a79b;
+}
+
+.history-table
+{
+	width:100%;
+	border-collapse:collapse;
+}
+
+
+table,th, td
+{
+border: 1px solid #E8E8E8;
+}
+
+
+.history-table-data
+{
+	text-align:left;
+	padding-right:1em;
+	padding-left:1em;
+	padding-top:.5em;
+	padding-bottom: :.5em;
+	;
+}
