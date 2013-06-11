@@ -58,6 +58,5 @@ TNConfigTool::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
   get "history/View"
   
-  root :to => 'history/View'
   
 end
