@@ -21,7 +21,7 @@ end
 gem 'jquery-rails'
 
 group :production do
-	gem 'mysql2', '~>0.3.7'
+	gem 'pg'
 end
 
 group :development do
