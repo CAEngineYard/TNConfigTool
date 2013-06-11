@@ -1,2 +1,2 @@
 defaults:
-	precompile_assets: true  # precompile assets when asset changes detected
+    precompile_assets: true  # precompile assets when asset changes detected
