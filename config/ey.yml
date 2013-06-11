@@ -1,0 +1,3 @@
+environments:
+	TNConfigTool:
+		precompile_assets: true  # precompile assets when asset changes detected
