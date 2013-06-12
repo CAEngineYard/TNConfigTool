@@ -6,7 +6,7 @@ class HistoryController < ApplicationController
  
 	 	@actionHistory = [ActionHistory.new("Initialize", "sclaus", DateTime.now) , ActionHistory.new("Activated", "ebunny", DateTime.now), ActionHistory.new("Exploded", "jfrost", DateTime.now)]
     
-    render "View.html", :layout => false
+    render "View.html.erb", :layout => true
 	end
 
 end
