@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84ea0195-8370-4050-be8c-2144fe39085d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/history/View.html.erb" afterPath="$PROJECT_DIR$/app/views/history/View.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/history_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/history_controller.rb" />
     </list>
     <ignored path="TNConfigTool.iws" />
@@ -14,7 +13,7 @@
     <file path="/routes.rb" changelist="84ea0195-8370-4050-be8c-2144fe39085d" time="1371151395897" ignored="false" />
     <file path="/View.html.erb" changelist="84ea0195-8370-4050-be8c-2144fe39085d" time="1371151627761" ignored="false" />
     <file path="/a.dummy" changelist="84ea0195-8370-4050-be8c-2144fe39085d" time="1371155788209" ignored="false" />
-    <file path="/history_controller.rb" changelist="84ea0195-8370-4050-be8c-2144fe39085d" time="1371156932375" ignored="false" />
+    <file path="/history_controller.rb" changelist="84ea0195-8370-4050-be8c-2144fe39085d" time="1371157472405" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +69,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="View.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="View.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/history/View.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="41" selection-start="66" selection-end="105" vertical-scroll-proportion="0.14778325">
+            <state line="4" column="41" selection-start="66" selection-end="105" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
@@ -91,7 +90,7 @@
       <file leaf-file-name="login_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/login_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="15" selection-start="272" selection-end="406" vertical-scroll-proportion="0.0">
+            <state line="9" column="29" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,10 +105,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="history_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="history_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/history_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="3" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+            <state line="10" column="4" selection-start="223" selection-end="223" vertical-scroll-proportion="0.35971224">
               <folding />
             </state>
           </provider>
@@ -148,8 +147,8 @@
         <option value="$PROJECT_DIR$/lib/onelogin/ruby-saml/authrequest.rb" />
         <option value="$PROJECT_DIR$/app/controllers/saml_controller.rb" />
         <option value="$PROJECT_DIR$/log/development.log" />
-        <option value="$PROJECT_DIR$/app/controllers/history_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/history/View.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/history_controller.rb" />
       </list>
     </option>
   </component>
@@ -671,13 +670,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/login_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="15" selection-start="272" selection-end="406" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p320/gems/ruby-saml-0.7.2/lib/onelogin/ruby-saml/authrequest.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="9" selection-start="960" selection-end="960" vertical-scroll-proportion="1.0813954">
@@ -727,16 +719,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/history_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/history/View.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0">
+        <state line="4" column="41" selection-start="66" selection-end="105" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/history/View.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/login_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="41" selection-start="66" selection-end="105" vertical-scroll-proportion="0.14778325">
+        <state line="9" column="29" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/history_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="223" selection-end="223" vertical-scroll-proportion="0.35971224">
           <folding />
         </state>
       </provider>

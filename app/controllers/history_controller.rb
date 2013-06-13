@@ -8,7 +8,7 @@ class HistoryController < ApplicationController
    #   session[:userid]=nil
   #    return redirect_to '/saml'
 
-    end
+   # end
 	 	@actionHistory = [ActionHistory.new("Initialize", "sclaus", DateTime.now) , ActionHistory.new("Activated", "ebunny", DateTime.now), ActionHistory.new("Exploded", "jfrost", DateTime.now)]
     
     render "View.html.erb", :layout => true
