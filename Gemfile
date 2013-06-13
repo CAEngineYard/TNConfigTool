@@ -19,9 +19,9 @@ group :assets do
 end
 
 gem 'jquery-rails'
-
-
-
+   gem 'nokogiri'
+# gem 'ruby-saml'
+    gem 'uuid'
 group :development do
 	gem 'sqlite3'
 end
