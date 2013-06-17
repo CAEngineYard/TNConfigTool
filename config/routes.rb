@@ -6,7 +6,7 @@ TNConfigTool::Application.routes.draw do
 
    post 'saml/consume'
 
-  get "history/view"
+  get "history/view" => "history#view"
   
   
 end
