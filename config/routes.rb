@@ -3,10 +3,12 @@ TNConfigTool::Application.routes.draw do
   # The priority is based upon order of creation:
   # first created -> highest priority.
    resources :saml
+   resources :history
 
-   post 'saml/consume'
+   root :to => 'history#show'
+  post 'saml/consume'
 
-  get "history/view" => "history#view"
+  get "history/show" => "history#show"
   
   
 end
