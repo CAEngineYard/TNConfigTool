@@ -34,8 +34,8 @@ class SamlController < ApplicationController
     settings = Onelogin::Saml::Settings.new
 
 
-    settings.assertion_consumer_service_url   = 'http://localhost:3000/saml/consume'
-    settings.issuer                           = 'http://localhost:3000'
+    settings.assertion_consumer_service_url   = 'http://ec2-54-225-110-30.compute-1.amazonaws.com/saml/consume'
+    settings.issuer                           = 'http://ec2-54-225-110-30.compute-1.amazonaws.com'
     settings.idp_sso_target_url               = 'https://cbtest.okta.com/home/template_saml_2_0/0oa5jd32ceHSLDKIRBJZ/3079'
     settings.idp_cert_fingerprint             =  '02:05:79:D8:96:CC:CA:54:2F:16: E2:6E:7D:32:F3:54:95:61:89:71'
     settings.name_identifier_format           = "urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress"
